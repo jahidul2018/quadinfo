@@ -17,9 +17,21 @@
 //Route::get('/', function() {
 //	return view('index');
 //});
-Route::get('/quadinfo', function(){
-	return view('frontend/pages/index');
-}); 
+//
+//frontend 
+// Route::get('/quadinfo', function(){
+// 	return view('frontend/pages/index');
+// }); 
 
-//Route::get('/quadinfo', 'frontend\FrontendController@index')->name('quadinfo');
-//Route::get('/quadinfo', 'frontend\FrontendController@index')->name('quadinfo');
+// Route::get('/About',function(){
+// 	return view('frontend/pages/about');
+// });
+Route::get('/', 'frontendController@index')->name('index');
+
+Route::get('/about', 'aboutController@about')->name('about');
+Route::get('/bloge-single', 'blogController@single')->name('blogsingle');
+Route::get('/blog', 'blogController@blog')->name('blog');
+Route::get('/contact', 'contactController@contact')->name('contact');
+Route::get('/project', 'projectController@project')->name('project');
+Route::get('/services', 'servicesController@services')->name('services');
+Route::get('/career', 'frontendController@career')->name('career');

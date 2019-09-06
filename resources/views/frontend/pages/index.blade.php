@@ -1,513 +1,934 @@
 @extends('frontend.layouts.master')
-
 @section('content')
+   
+</section>
+<section class="page_slider main_slider">
+        <div class="flexslider" data-nav="true" data-dots="false">
+          <ul class="slides">
+            <li class="ds text-center slide1">
+              <span class="flexslider-overlay"></span>
+              <span class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.youtube.com/embed/UBufeh1yv2c?feature=oembed&amp;;showinfo=0&amp;;autoplay=1&amp;;controls=0&amp;;mute=1&amp;;loop=1&amp;;playlist=UBufeh1yv2c" allowfullscreen=""></iframe>
+              </span>
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 itro_slider">
+                    <div class="intro_layers_wrapper">
+                      <div class="intro_layers">
+                        <div class="intro_layer" data-animation="fadeIn">
+                          <p class="text-uppercase intro_after_featured_word">welcome to</p>
+                        </div>
 
-    
-    <!--Start section-->
-    <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url({{ asset('frontend/images/bg_1.jpg') }});">
-      	<div class="overlay"></div>
+                        <div class="intro_layer" data-animation="slideRight">
+                          <h2 class="text-uppercase intro_featured_word">
+                            it agency
+                          </h2>
+                        </div>
+                        <div class="intro_layer" data-animation="fadeIn">
+                          <h3 class="intro_before_featured_word">
+                            <span class="color-main2">Software Development</span>,
+                            <span class="color-main3">Marketing</span> &
+                            <span class="color-main4">Branding</span>
+                          </h3>
+                        </div>
+                        <div class="intro_layer page-bottom" data-animation="expandUp">
+                          <a class="btn btn-maincolor" href="about.html">Get Started</a>
+                        </div>
+                      </div>
+                      <!-- eof .intro_layers -->
+                    </div>
+                    <!-- eof .intro_layers_wrapper -->
+                  </div>
+                  <!-- eof .col-* -->
+                </div>
+                <!-- eof .row -->
+              </div>
+              <!-- eof .container -->
+            </li>
+            <li class="ds text-center slide2">
+              <span class="flexslider-overlay"></span>
+              <img src="{{ asset('frontend/images/slide_02.jpg') }}" alt="">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 itro_slider">
+                    <div class="intro_layers_wrapper">
+                      <div class="intro_layers">
+                        <div class="intro_layer" data-animation="fadeIn">
+                          <h3 class="text-lowercase intro_before_featured_word">
+                            Online
+                          </h3>
+                        </div>
+                        <div class="intro_layer" data-animation="fadeIn">
+                          <h2 class="text-uppercase intro_featured_word">
+                            Marketing
+                          </h2>
+                        </div>
+                        <div class="intro_layer" data-animation="pullDown">
+                          <p class="text-uppercase intro_after_featured_word">Solutions</p>
+                        </div>
+                        <div class="intro_layer page-bottom" data-animation="expandUp">
+                          <a class="btn btn-maincolor" href="about.html">Get Started</a>
+                        </div>
+                      </div>
+                      <!-- eof .intro_layers -->
+                    </div>
+                    <!-- eof .intro_layers_wrapper -->
+                  </div>
+                  <!-- eof .col-* -->
+                </div>
+                <!-- eof .row -->
+              </div>
+              <!-- eof .container -->
+            </li>
+            <li class="ds text-center slide3">
+              <img src="{{ asset('frontend/images/slide_03.jpg') }}" alt="">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12 itro_slider">
+                    <div class="intro_layers_wrapper">
+                      <div class="intro_layers">
+                        <div class="intro_layer" data-animation="fadeInRight">
+                          <h2 class="text-uppercase intro_featured_word light">
+                            Modern
+                          </h2>
+                        </div>
+                        <div class="intro_layer" data-animation="fadeIn">
+                          <h2 class="text-uppercase intro_featured_word bold">
+                            Marketing & design
+                          </h2>
+                        </div>
+                        <div class="intro_layer" data-animation="fadeIn">
+                          <h2 class="text-uppercase intro_featured_word">
+                            That works
+                          </h2>
+                        </div>
+
+                        <div class="intro_layer page-bottom" data-animation="expandUp">
+                          <a class="btn btn-maincolor" href="about.html">Get Started</a>
+                          <a class="btn btn-outline-maincolor" href="#">our folio</a>
+                        </div>
+                      </div>
+                      <!-- eof .intro_layers -->
+                    </div>
+                    <!-- eof .intro_layers_wrapper -->
+                  </div>
+                  <!-- eof .col-* -->
+                </div>
+                <!-- eof .row -->
+              </div>
+              <!-- eof .container -->
+            </li>
+
+          </ul>
+        </div>
+        <!-- eof flexslider -->
+        <div class="flexslider-bottom d-none d-xl-block">
+          <a href="#about" class="mouse-button animated floating"></a>
+        </div>
+      </section>
+      <div class="divider-10 d-block d-sm-none"></div>
+      <section class="s-pt-30 s-pt-lg-50 s-pt-xl-25 ls about-home" id="about">
+        <div class="divider-5 d-none d-xl-block"></div>
         <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-7 ftco-animate">
-          	<span class="subheading">Welcome to Consolve</span>
-            <h1 class="mb-4">We Are The Best Consulting Agency</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
+          <div class="row">
+            <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+              <div class="main-content text-center">
+                <div class="img-wrap text-center">
+                  <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+                  <div class="divider-35"></div>
+                </div>
+                <h5>
+                  We are the one of the most effective Software Development Companies
+                </h5>
+                <p>
+                  Getting online is easy. Succeeding online is a different story. You’ll need more than just a effective solution to stand out these days.
+                  <strong>Online Web marketing solutions.</strong> Conversion-based web development coupled with a lead generating marketing plan, your online success is inevitable.
+                </p>
+                <div class="divider-30"></div>
+                <div class="img-wrap text-center">
+                  <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+                </div>
+                <div>
+                  <div class="divider-40"></div>
+                  <button type="button" class="btn btn-outline-maincolor">Get Started</button>
+                  <div class="divider-40"></div>
+                </div>
+                <div class="img-wrap text-center">
+                  <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+                </div>
+                <div class="divider-10 d-none d-xl-block"></div>
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-      </div>
+        <div class="divider-10 d-block d-sm-none"></div>
+      </section>
 
-      <div class="slider-item" style="background-image:url({{ asset('frontend/images/bg_2.jpg') }});">
-      	<div class="overlay"></div>
+      <section class="s-pt-30 s-pb-3 service-item2 ls animate" id="services" data-animation="fadeInUp">
         <div class="container">
-          <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-          <div class="col-md-7 ftco-animate">
-          	<span class="subheading">Todays Talent, Tommorow Success</span>
-            <h1 class="mb-4">We Help to Grow Your Business</h1>
-            <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">Our Services</a></p>
-          </div>
-        </div>
-        </div>
-      </div>
-    </section>
-
-		<section class="ftco-section">
-			<div class="container">
-				<div class="row d-flex">
-					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
-						<div class="wrap-about-border ftco-animate">
-							<div class="img" style="background-image: url({{ asset('frontend/images/about.jpg') }}); border"></div>
-							<div class="text">
-								<h3>Read Our Success Story for Inspiration</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-								<p><a href="#" class="btn btn-primary py-3 px-4">Contact us</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
-          	<h2 class="mb-4">Our Main Features</h2>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-						<div class="row mt-5">
-							<div class="col-lg-6">
-								<div class="services active text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-collaboration"></span></div>
-									<div class="text media-body">
-										<h3>Organization</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-								<div class="services text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
-									<div class="text media-body">
-										<h3>Risk Analysis</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="services text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-search-engine"></span></div>
-									<div class="text media-body">
-										<h3>Marketing Strategy</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-								<div class="services text-center">
-									<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-handshake"></span></div>
-									<div class="text media-body">
-										<h3>Capital Market</h3>
-										<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="ftco-intro ftco-no-pb img" style="background-image: url({{ asset('frontend/images/bg_3.jpg') }});">
-    	<div class="container">
-    		<div class="row justify-content-center mb-5">
-          <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-            <h2 class="mb-0">You Always Get the Best Guidance</h2>
-          </div>
-        </div>	
-    	</div>
-    </section>
-
-		<section class="ftco-counter" id="section-counter">
-    	<div class="container">
-    		<div class="row d-md-flex align-items-center justify-content-center">
-    			<div class="wrapper">
-    				<div class="row d-md-flex align-items-center">
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="705">0</strong>
-		                <span>Projects Completed</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="809">0</strong>
-		                <span>Satisfied Customer</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="335">0</strong>
-		                <span>Awwards Received</span>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-		            <div class="block-18">
-		            	<div class="icon"><span class="flaticon-doctor"></span></div>
-		              <div class="text">
-		                <strong class="number" data-number="35">0</strong>
-		                <span>Years of Experienced</span>
-		              </div>
-		            </div>
-		          </div>
-	          </div>
-          </div>
-        </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Our Best Services</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-          </div>
-        </div>
-				<div class="row no-gutters">
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 noborder-left text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-analysis"></span></div>
-							<div class="text media-body">
-								<h3>Business Analysis</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-business"></span></div>
-							<div class="text media-body">
-								<h3>Business Consulting</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-insurance"></span></div>
-							<div class="text media-body">
-								<h3>Business Insurance</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-money"></span></div>
-							<div class="text media-body">
-								<h3>Global Investigation</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center noborder-bottom ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-rating"></span></div>
-							<div class="text media-body">
-								<h3>Audit &amp; Evaluation</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 d-flex">
-						<div class="services-2 text-center noborder-bottom ftco-animate">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center"><span class="flaticon-search-engine"></span></div>
-							<div class="text media-body">
-								<h3>Marketing Strategy</h3>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		
-		<section class="ftco-intro ftco-no-pb img" style="background-image: url({{ asset('frontend/images/bg_1.jpg') }});">
-    	<div class="container">
-    		<div class="row justify-content-center">
-          <div class="col-lg-9 col-md-8 d-flex align-items-center heading-section heading-section-white ftco-animate">
-            <h2 class="mb-3 mb-md-0">You Always Get the Best Guidance</h2>
-          </div>
-          <div class="col-lg-3 col-md-4 ftco-animate">
-          	<p class="mb-0"><a href="#" class="btn btn-warning py-3 px-4">QUAD INFO</a></p>
-          </div>
-        </div>	
-    	</div>
-    </section>
-
-		<section class="ftco-section ftco-no-pb">
-			<div class="container-fluid px-0">
-				<div class="row no-gutters justify-content-center mb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Our Recent Projects</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-            <p></p>
-          </div>
-        </div>
-				<div class="row no-gutters">
-    			<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-2.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-1.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-
-    			<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-3.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-					<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-4.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-5.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-6.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-7.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-3">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ asset('frontend/images/project-8.jpg') }});">
-    					<div class="overlay"></div>
-    					<a href="#" class="btn-site d-flex align-items-center justify-content-center"><span class="icon-subdirectory_arrow_right"></span></a>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-    		</div>
-			</div>
-		</section>
-
-    <section class="ftco-intro ftco-no-pb img" style="background-image: url({{ asset('frontend/images/bg_5.jpg') }});" data-stellar-background-ratio="0.5">
-    	<div class="container">
-    		<div class="row justify-content-center">
-          <div class="col-lg-9 col-md-8 d-flex align-items-center heading-section heading-section-white ftco-animate">
-            <h2 class="mb-3 mb-md-0">Grow Your Business with Us</h2>
-          </div>
-          <div class="col-lg-3 col-md-4 ftco-animate">
-          	<p class="mb-0"><a href="#" class="btn btn-warning py-3 px-4">QUAD INFO </a></p>
-          </div>
-        </div>	
-    	</div>
-    </section>
-
-		<section class="ftco-section bg-light">
-			<div class="container">
-				<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4"><span>Recent</span> Blog</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
-          </div>
-        </div>
-				<div class="row">
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url({{ asset('path') }}'images/image_1.jpg');">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
+          <div class="row c-mb-50 c-mb-md-60">
+            <div class="d-none d-lg-block divider-20"></div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="vertical-item text-center">
+                <div class="item-media">
+                  <img src="{{ asset('frontend/images/service/service_icon_1-1.png') }}" alt="">
                 </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
+                <div class="item-content">
+                  <h6>
+                    <a href="service-single1.html">Marketing</a>
+                  </h6>
+
+                  <p>
+                    We use strategic marketing tactics that have been proven to work.
+                  </p>
+
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url({{ asset('frontend/images/image_2.jpg') }});">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
+            <!-- .col-* -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="vertical-item text-center">
+                <div class="item-media">
+                  <img src="{{ asset('frontend/images/service/service_icon_2-1.png') }}" alt="">
                 </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20 d-flex align-items-end" style="background-image: url({{ asset('frontend/images/image_3.jpg') }});">
-								<div class="meta-date text-center p-2">
-                  <span class="day">26</span>
-                  <span class="mos">June</span>
-                  <span class="yr">2019</span>
-                </div>
-              </a>
-              <div class="text bg-white p-4">
-                <h3 class="heading"><a href="#">Finance And Legal Working Streams Occur Throughout</a></h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                <div class="d-flex align-items-center mt-4">
-	                <p class="mb-0"><a href="#" class="btn btn-primary">Read More <span class="ion-ios-arrow-round-forward"></span></a></p>
-	                <p class="ml-auto mb-0">
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-			</div>
-		</section>
+                <div class="item-content">
+                  <h6>
+                    <a href="service-single1.html">Development</a>
+                  </h6>
 
-		<section class="ftco-section testimony-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="mb-4">Our Clients Says</h2>
-            <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
+                  <p>
+                    Custom programming for most complex functions you can think.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <!-- .col-* -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="vertical-item text-center">
+                <div class="item-media">
+                  <img src="{{ asset('frontend/images/service/service_icon_3-1.png') }}" alt="">
+                </div>
+                <div class="item-content">
+                  <h6>
+                    <a href="service-single1.html">Web Design</a>
+                  </h6>
+
+                  <p>
+                    Pork chop pork belly hamburger prosciutto, fatback andouille flank.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- .col-* -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="vertical-item text-center">
+                <div class="item-media">
+                  <img src="{{ asset('frontend/images/service/service_icon_4-1.png') }}" alt="">
+                </div>
+                <div class="item-content">
+                  <h6>
+                    <a href="service-single1.html">SEO Optimization</a>
+                  </h6>
+
+                  <p>
+                    Optimizing our web designs to rank on the first page of google is our specialty.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- .col-* -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="vertical-item text-center">
+                <div class="item-media">
+                  <img src="{{ asset('frontend/images/service/service_icon_5-1.png') }}" alt="">
+                </div>
+                <div class="item-content">
+                  <h6>
+                    <a href="service-single1.html">Ecommerce</a>
+                  </h6>
+
+                  <p>
+                    We build your online store using a flexible, modular platform that allows
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <!-- .col-* -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="vertical-item text-center">
+                <div class="item-media">
+                  <img src="{{ asset('frontend/images/service/service_icon_6-1.png') }}" alt="">
+                </div>
+                <div class="item-content">
+                  <h6>
+                    <a href="service-single1.html">Branding</a>
+                  </h6>
+
+                  <p>
+                    A solid brand strategy, logo and guidelines help you to get You recognized.
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <!-- .col-* -->
+          </div>
+          <div class="pink-line text-center">
+            <img src="{{ asset('frontend/img/pink_line_big.png') }}" alt="">
           </div>
         </div>
-        <div class="row ftco-animate justify-content-center">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel">
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url({{ asset('frontend/images/person_1.jpg') }})">
-                  </div>
-                  <div class="text pl-4">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Racky Henderson</p>
-                    <span class="position">Father</span>
+      </section>
+
+
+      <section class="s-pt-100 s-pt-lg-130 ds process-part skew_right s-parallax top_white_line_big overflow-visible" id="steps">
+        <div class="container">
+          <div class="divider-65"></div>
+          <div class="row align-items-center c-mb-20 c-mb-lg-60">
+            <div class="col-12 col-lg-4">
+              <div class="step-left-part text-right">
+                <h2 class="step-title">
+                  <span class="color-main">01</span>Strategy</h2>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="step-center-part text-center">
+                <img src="{{ asset('frontend/images/step_img_1.jpg') }}" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="step-right-part">
+                <p class="step-text">We define your competition and target audience. Discover what is working in your online industry, then Develop your System accordingly.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center right c-mb-20 c-mb-lg-60">
+            <div class="col-12 col-lg-4  order-lg-3">
+              <div class="step-left-part">
+                <h2 class="step-title color1">
+                  <span class="color-main2">02</span>Analysis</h2>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-lg-2">
+              <div class="step-center-part text-center">
+                <img src="{{ asset('frontend/images/step_img_2.jpg') }}" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-lg-1 text-right">
+              <div class="step-right-part ">
+                <p class="step-text">Business process and User requirments analysis . We will bring your Ideas To life with a one of kind masterpiece Solution, built just for you.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center c-mb-20 c-mb-lg-60">
+            <div class="col-12 col-lg-4">
+              <div class="step-left-part text-right part3">
+                <h2 class="step-title">
+                  <span class="color-main3">03</span>Develop</h2>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="step-center-part text-center">
+                <img src="{{ asset('frontend/images/step_img_3.jpg') }}" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-4">
+              <div class="step-right-part">
+                <p class="step-text">We turn your ideas into a reality. & our Sorfware Development is placed on a "development server" where you get to watch the whole process, live.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center right c-mb-20 c-mb-lg-60">
+            <div class="col-12 col-lg-4  order-lg-3">
+              <div class="step-left-part part4">
+                <h2 class="step-title color1">
+                  <span class="color-main4">04</span>Support</h2>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-lg-2">
+              <div class="step-center-part text-center last">
+                <img src="{{ asset('frontend/images/step_img_2.jpg') }}" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 order-lg-1 text-right">
+              <div class="step-right-part ">
+                <p class="step-text">This is where you go live, to the digital world. Development, Design, marketing, and maintenance; we'll be at your side for the life of your system.</p>
+              </div>
+            </div>
+          </div>
+          <div class="divider-10 d-block d-sm-none"></div>
+          <div class="img-wrap text-center">
+            <img src="{{ asset('img/vertical_line2.pn') }}" alt="">
+          </div>
+          <!-- <div class=" white-button text-center">
+            <a class="btn white-btn" href="#">Get Started</a>
+          </div> -->
+          <div class="divider-30 d-none d-xl-block"></div>
+        </div>
+      </section>
+     {{--  gallery  --}}
+
+      {{-- <section class="s-pt-75 s-pt-xl-50 gallery-carousel main-gallery container-px-0" id="gallery">
+        <div class="container-fluid">
+          <div class="img-wrap text-center">
+            <img src="{{ asset('img/vertical_line.png') }}" alt="">
+            <div class="divider-40 d-block d-sm-none"></div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row justify-content-center">
+                <div class="col-md-10 col-xl-5">
+                  <div class="filters gallery-filters small-text text-lg-right">
+                    <a href="#" data-filter="*" class="active selected">All</a>
+                    <a href="#" data-filter=".web-design">Web Design</a>
+                    <a href="#" data-filter=".logo-design">Logo Design</a>
+                    <a href="#" data-filter=".advertisement">Advertisement</a>
+                    <a href="#" data-filter=".branding">Branding</a>
+                    <a href="#" data-filter=".design">Design</a>
+                    <a href="#" data-filter=".photo">Photo</a>
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url({{ asset('frontend/images/person_2.jpg') }})">
+              <div class="owl-carousel gallery-owl-nav" data-autoplay="false" data-responsive-lg="5" data-responsive-md="3" data-responsive-sm="3" data-responsive-xs="2" data-nav="true" data-dots="false" data-filters=".gallery-filters" data-margin="0" data-loop="true">
+                <div class="vertical-item item-gallery content-absolute text-center ds web-design">
+                  <div class="item-media">
+                    <img src="{{ asset('frontend/images/gallery/gallery-1.jpg') }}" alt="">
+                    <div class="media-links">
+
+                    </div>
                   </div>
-                  <div class="text pl-4">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Henry Dee</p>
-                    <span class="position">Businesswoman</span>
+                  <div class="item-content">
+                    <h6>
+                      <a class="small-text" href="gallery-regular.html">web-design</a>
+                    </h6>
+                    <h6>
+                      <a href="gallery-regular.html">Clothes Badge Design</a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="vertical-item item-gallery content-absolute text-center ds logo-design">
+                  <div class="item-media">
+                    <img src="{{ asset('frontend/images/gallery/gallery-2.jpg') }}" alt="">
+                    <div class="media-links">
+
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a class="small-text" href="gallery-regular.html">logo-design</a>
+                    </h6>
+                    <h6>
+                      <a href="gallery-regular.html">Clothes Badge Design</a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="vertical-item item-gallery content-absolute text-center ds advertisement">
+                  <div class="item-media">
+                    <img src="{{ asset('frontend/images/gallery/gallery-3.jpg') }}" alt="">
+                    <div class="media-links">
+
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a class="small-text" href="gallery-regular.html">advertisement</a>
+                    </h6>
+                    <h6>
+                      <a href="gallery-regular.html">Clothes Badge Design</a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="vertical-item item-gallery content-absolute text-center ds branding">
+                  <div class="item-media">
+                    <img src="{{ asset('frontend/images/gallery/gallery-4.jpg') }}" alt="">
+                    <div class="media-links">
+
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a class="small-text" href="gallery-regular.html">branding</a>
+                    </h6>
+                    <h6>
+                      <a href="gallery-regular.html">Clothes Badge Design</a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="vertical-item item-gallery content-absolute text-center ds design">
+                  <div class="item-media">
+                    <img src="{{ asset('frontend/images/gallery/gallery-5.jpg') }}" alt="">
+                    <div class="media-links">
+
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a class="small-text" href="gallery-regular.html">design</a>
+                    </h6>
+                    <h6>
+                      <a href="gallery-regular.html">Clothes Badge Design</a>
+                    </h6>
+                  </div>
+                </div>
+                <div class="vertical-item item-gallery content-absolute text-center ds photo">
+                  <div class="item-media">
+                    <img src="{{ asset('frontend/images/gallery/gallery-6.jpg') }}" alt="">
+                    <div class="media-links">
+
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h6>
+                      <a class="small-text" href="gallery-regular.html">photo</a>
+                    </h6>
+                    <h6>
+                      <a href="gallery-regular.html">Clothes Badge Design</a>
+                    </h6>
                   </div>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url({{ asset('frontend/images/person_3.jpg') }})">
-                  </div>
-                  <div class="text pl-4">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Mark Huff</p>
-                    <span class="position">Businesswoman</span>
-                  </div>
-                </div>
+              <!-- .owl-carousel-->
+            </div>
+          </div>
+        </div>
+      </section> --}}
+
+      {{-- <section class="page_slider team_slider" id="team">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="shortcode-team-slider main-team">
+              <h3 class="slider-title">Team</h3>
+              <div class="flexslider team-slider" data-nav="false" data-dots="true">
+                <ul class="slides">
+                  <li class="ls">
+                    <img src="{{ asset('frontend/images/team/team_slide_01.jpg') }}" alt="">
+                  </li>
+                  <li class="ls">
+                    <img src="{{ asset('frontend/images/team/team_slide_02.jpg') }}" alt="">
+                  </li>
+                  <li class="ls">
+                    <img src="{{ asset('frontend/images/team/team_slide_03.jpg') }}" alt="">
+                  </li>
+                  <li class="ls">
+                    <img src="{{ asset('frontend/images/team/team_slide_04.jpg') }}" alt="">
+                  </li>
+                </ul>
               </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url({{ asset('frontend/images/person_4.jpg') }})">
-                  </div>
-                  <div class="text pl-4">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+              <!-- eof flexslider -->
+              <div class="flexslider-controls">
+                <ul class="flex-control-nav-1">
+                  <li class="menu_item flex-active">
+                    Gregory F. Parrino
+                    <span class="position">CEO</span>
+                    <span class="team-social-icons">
+                      <span class="social-icons">
+                        <a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+                        <a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+                        <a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+                      </span>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Rodel Golez</p>
-                    <span class="position">Businesswoman</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap d-flex">
-                  <div class="user-img" style="background-image: url({{ asset('frontend/images/person_1.jpg') }})">
-                  </div>
-                  <div class="text pl-4">
-                  	<span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
+                  </li>
+                  <li class="menu_item">
+                    Letha L. Young
+                    <span class="position">Designer</span>
+                    <span class="team-social-icons">
+                      <span class="social-icons">
+                        <a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+                        <a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+                        <a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+                      </span>
                     </span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Ken Bosh</p>
-                    <span class="position">Businesswoman</span>
-                  </div>
-                </div>
+                  </li>
+                  <li class="menu_item">
+                    Harold D. Cote
+                    <span class="position">Developer</span>
+                    <span class="team-social-icons">
+                      <span class="social-icons">
+                        <a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+                        <a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+                        <a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+                      </span>
+                    </span>
+                  </li>
+                  <li class="menu_item">
+                    Oren R. Odom
+                    <span class="position">Marketer</span>
+                    <span class="team-social-icons">
+                      <span class="social-icons">
+                        <a href="#" class="fa fa-facebook color-icon border-icon rounded-icon" title="facebook"></a>
+                        <a href="#" class="fa fa-twitter color-icon border-icon rounded-icon" title="twitter"></a>
+                        <a href="#" class="fa fa-google color-icon border-icon rounded-icon" title="google"></a>
+                      </span>
+                    </span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-@endsection    
-<!--End section-->
+      </section> --}}
+
+      <section class="ls ms book-item s-pb-30 s-pb-lg-25">
+        <div class="corner corner-light"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <div class="text-block text-center">
+                <div class="btn-book-section overflow-visible">
+                  <a href="#" class="btn btn-maincolor">Get Started</a>
+                </div>
+                <div class="img-wrap text-center">
+                  <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+                  <div class="divider-35"></div>
+                </div>
+                <h5>
+                  B2B, B2C Marketing & Software Solution 
+                  <br> & Resources
+                </h5>
+                <p>
+                  B2B, client acquisition is not the same as B2C– a B2B website, brand messaging and content marketing play a much different role. We understand the B2B, B2C marketing and sales funnel and the tactics that generate and nurture ideal client leads.
+                </p>
+                <div class="divider-30"></div>
+                <div class="img-wrap text-center">
+                  <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="divider-40"></div>
+            <div class="row c-gutter-30 c-mb-30 c-mb-lg-0 text-center book">
+              <div class="col-12 col-lg-4">
+                <div class="stage book-1 ls">
+                  <img src="{{ asset('frontend/images/book-1.png') }}" alt="#">
+                  <div class="info">
+                    <header>
+                      <h6>
+                        <a href="#">Annual Report for Software Solution
+                          <br>2017-2018</a>
+                      </h6>
+                    </header>
+                    <p>
+                      {{-- At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. --}}
+                    </p>
+                    <p class="small-text link-a">
+                      <a href="#contact">Buy It Now!</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="stage book-2 ds">
+                  <img src="{{ asset('frontend/images/book-2.png') }}" alt="#">
+                  <div class="info">
+                    <header>
+                      <h6>
+                        <a href="#">Tools of Trading: Modern Marketing</a>
+                      </h6>
+                    </header>
+                    <p>
+                     {{--  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam numy eirmod. --}}
+                    </p>
+                    <p class="small-text link-a">
+                      <a href="#contact">Buy It Now!</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="stage book-3 ls">
+                  <img src="{{ asset('frontend/images/book-3.png') }}" alt="#">
+                  <div class="info">
+                    <header>
+                      <h6>
+                        <a href="#">Business Software and Solution</a>
+                      </h6>
+                    </header>
+                    <p>
+                      {{-- Et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren. --}}
+                    </p>
+                    <p class="small-text link-a">
+                      <a href="#contact">Contact Us</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider-30"></div>
+            <div class="text-center img-wrap col-md-12">
+              <div>
+                <img src="{{ asset('pathinfo(frontend/img/vertical_line.png)') }}" alt="">
+              </div>
+              <div class="divider-40"></div>
+              <a href="#" class="btn btn-outline-maincolor">Get Started</a>
+              <div class="divider-40"></div>
+              <div>
+                <img src="{{ asset('pathinfo(frontend/img/vertical_line.png)') }}" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="divider-10"></div>
+        </div>
+      </section>
+
+      {{-- <section class="ls ms blog-post-carousel">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="owl-carousel" data-responsive-lg="4" data-responsive-md="3" data-responsive-sm="2" data-responsive-xs="1" data-nav="false" data-dots="false" data-loop="true" data-margin="4">
+                <article class="box text-center">
+                  <div class="item-content">
+                    <p class="small-text">
+                      <a href="#">December 29, 2017</a>
+                    </p>
+                    <h6>
+                      <a href="#">Traffic control test by New York Cabs program</a>
+                    </h6>
+                    <div class="post-author">
+                      <img src="{{ asset('frontend/images/small_author.png') }}" alt="">
+                      <p>
+                        <a href="#">by Admin</a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+                <article class="box text-center">
+                  <div class="item-content ">
+                    <p class="small-text">
+                      <a href="#">December 26, 2017</a>
+                    </p>
+                    <h6>
+                      <a href="#">Live support, key of an endless satisfaction</a>
+                    </h6>
+                    <div class="post-author">
+                      <img src="{{ asset('frontend/images/small_author.png') }}" alt="">
+                      <p>
+                        <a href="#">by Admin</a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+                <article class="box text-center">
+                  <div class="item-content ">
+                    <p class="small-text">
+                      <a href="#">December 21, 2017</a>
+                    </p>
+                    <h6>
+                      <a href="#">Strong servers, customer friendly services</a>
+                    </h6>
+                    <div class="post-author">
+                      <img src="{{ asset('frontend/images/small_author.png') }}" alt="">
+                      <p>
+                        <a href="#">by Admin</a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+                <article class="box text-center">
+                  <div class="item-content ">
+                    <p class="small-text">
+                      <a href="#">December 15, 2017</a>
+                    </p>
+                    <h6>
+                      <a href="#">Weekly meeting in companies Think Room</a>
+                    </h6>
+                    <div class="post-author">
+                      <img src="{{ asset('frontend/images/small_author.png') }}" alt="">
+                      <p>
+                        <a href="#">by Admin</a>
+                      </p>
+                    </div>
+                  </div>
+                  <!-- .item-content -->
+                </article>
+                <!-- #post-## -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> --}}
+
+      <section class="s-pt-130 s-pb-15 s-pb-md-50 s-pt-xl-100 s-pb-lg-30 overflow-visible s-parallax testimonials-sliders main-testimonials ds" id="testimonials">
+        <div class="corner ls ms"></div>
+        <div class="container">
+          <div class="row c-mt-30 c-mt-md-0">
+            <div class="divider-20"></div>
+            <div class="text-center img-wrap line col-md-12">
+              <img src="{{ asset('pathinfo(frontend/img/vertical_line2.png)') }}" alt="">
+            </div>
+            <div class="divider-40 d-none d-md-block"></div>
+            <div class="col-md-12">
+              <div class="owl-carousel" data-autoplay="false" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-nav="false" data-dots="true" id="quote">
+                <div class="quote-item">
+                  <div class="quote-image">
+                    <img src="{{ asset('frontend/images/team/testimonials_02.jpg') }}" alt="">
+                  </div>
+                  <p class="small-text author-job">
+                    Eye Insurance
+                  </p>
+                  <h5>
+                    <a href="#">George M. Baty</a>
+                  </h5>
+                  <p>
+                    <em class="big">
+                      I needed a software solution for my affiliating services. Pay-per-click, banners of maybe even broschures. They made an analysis of my existing site. 
+                    </em>
+                  </p>
+                </div>
+                <div class="quote-item">
+                  <div class="quote-image">
+                    <img src="{{ asset('frontend/images/team/testimonials_01.jpg') }}" alt="">
+                  </div>
+                  <p class="small-text author-job">
+                    Moving co
+                  </p>
+                  <h5>
+                    <a href="#">Jeffrey P. McAllister</a>
+                  </h5>
+                  <p>
+                    <em class="big">
+                      I highly recommend this company for all and any of your software development needs. I am very happy with the new redesigned and restructured website they built for my moving company!
+                    </em>
+                  </p>
+                </div>
+                <div class="quote-item">
+                  <div class="quote-image">
+                    <img src="{{ asset('frontend/images/team/testimonials_03.jpg') }}" alt="">
+                  </div>
+                  <p class="small-text author-job">
+                    Paradox Inc
+                  </p>
+                  <h5>
+                    <a href="#">Josephine B. Anderson</a>
+                  </h5>
+                  <p>
+                    <em class="big">
+                      This guys are awesome! It is hard to find a web development company who can actually listen and understand what you need. I’m 100% satisfied with this guys. My website is exactly what I needed and even more...
+                    </em>
+                  </p>
+
+                </div>
+              </div>
+              <!-- .testimonials-slider -->
+            </div>
+            <div class="divider-55 d-none d-md-block"></div>
+            <div class="text-center img-wrap col-md-12">
+              <img src="{{ asset('pathinfo(frontend/img/vertical_line2.png)') }}" alt="">
+            </div>
+            <div class="divider-10 d-none d-md-block"></div>
+          </div>
+        </div>
+        <div class="testimonials-btn text-center">
+          <a href="#quote" class="btn-maincolor">
+            <i class="fa fa-angle-up"></i>
+          </a>
+        </div>
+        <div class="corner corner-light"></div>
+      </section>
+
+      <section class="s-pt-130 s-pt-md-50 ls text-section">
+        <div class="divider-30"></div>
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-12 justify-content-center text-block">
+              <img src="{{ asset('pathinfo(frontend/img/vertical_line.png)') }}" alt="">
+              <div class="divider-35"></div>
+              <div class="content">
+                <h1>
+                  Lets Get Started
+                  <br> Your Project
+                </h1>
+                <p>
+                  We’ll help to achieve your goals and to grow business
+                </p>
+                <div class="divider-30"></div>
+              </div>
+              <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+              <div>
+                <div class="divider-40"></div>
+                <a href="#" class="btn btn-outline-maincolor">Let’s Talk!</a>
+                <div class="divider-30"></div>
+              </div>
+              <div class="img-wrap overflow-visible">
+                <img src="{{ asset('frontend/img/vertical_line.png') }}" alt="">
+                <div class="divider-5 d-none d-xl-block"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="s-pt-50 s-pb-100 s-pt-md-30 s-pb-xl-75 ls ms teaser-contact-icon main-icon s-parallax" id="contact">
+        <div class="corner corner-inverse"></div>
+        <div class="text-center img-wrap col-md-12">
+          <img src="{{ asset('frontend/img/dark_line_short.png') }}" alt="">
+        </div>
+        <div class="container">
+          <div class="divider-10 d-none d-xl-block"></div>
+          <div class="row c-mb-25 c-mt-25 c-mb-lg-0 c-mt-lg-0">
+            <div class="col-lg-4 text-center">
+              <div class="border-icon">
+                <div class="teaser-icon">
+                  <img src="{{ asset('frontend/images/icon1.png') }}" alt="">
+                </div>
+              </div>
+              <h6>
+                Call Us
+              </h6>
+              <p>
+                <strong>New Accounts:</strong>+88-01552280984
+                <br>
+                <strong>Support:</strong>+88-01904470171
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="border-icon">
+                <div class="teaser-icon">
+                  <img src="{{ asset('frontend/images/icon3.png') }}" alt="">
+                </div>
+              </div>
+              <h6>
+                Write Us
+              </h6>
+              <p>
+                example@example.com
+                <br> example@example.com
+              </p>
+            </div>
+            <div class="col-lg-4 text-center">
+              <div class="border-icon">
+                <div class="teaser-icon">
+                  <img src="{{ asset('frontend/images/icon2.png') }}" alt="">
+                </div>
+              </div>
+              <h6>
+                Visit Us
+              </h6>
+              <p>
+                QUAD INFO LTD.
 
 
-
-<!-- footer start-->
-
-<!-- footer end-->
- 
-<!--script start-->
-
-<!--script end-->
-    
+                <br> OSTHAYE NEBASH,
+982,BEGUM ROKEYA SORONI ROAD,
+EAST SAWRAPARA,MIRPUR(KAFRUL),
+DHAKA-1216.
+              </p>
+            </div>
+          </div>
+          <div class="divider-30 d-none d-lg-block"></div>
+          <div class="text-center img-wrap col-md-12 layout-2">
+            <img src="{{ asset('frontend/img/dark_line_short.png') }}" alt="">
+          </div>
+        </div>
+        <div class="divider-10"></div>
+      </section>
+@endsection

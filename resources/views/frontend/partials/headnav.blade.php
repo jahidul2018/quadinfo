@@ -1,58 +1,93 @@
-	  <div class="bg-top navbar-light">
-      <div class="container">
-    		<div class="row no-gutters d-flex align-items-center align-items-stretch">
-    			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html">QUAD INFO LTD</a>
-    			</div>
-	    		<div class="col-lg-8 d-block">
-		    		<div class="row d-flex">
-					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
-					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-					    	<div class="text">
-					    		<span>Email</span>
-						    	<span>youremail@email.com</span>
-						    </div>
-					    </div>
-					    <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
-					    	<div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-						    <div class="text">
-						    	<span>Call</span>
-						    	<span>Call Us: + 1235 2355 98</span>
-						    </div>
-					    </div>
-					    <div class="col-md topper d-flex align-items-center justify-content-end">
-					    	<p class="mb-0 d-block">
-					    		<a href="#" class="btn py-2 px-3 btn-primary">
-					    			<span>Free Consulting</span>
-					    		</a>
-					    	</p>
-					    </div>
-				    </div>
-			    </div>
-		    </div>
-		  </div>
-    </div>
-	  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container d-flex align-items-center">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <form action="#" class="searchform order-lg-last">
-          <div class="form-group d-flex">
-            <input type="text" class="form-control pl-3" placeholder="Search">
-            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+<div class="header_absolute s-pb-30">
+        <header class="page_header ds">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-xl-2 col-lg-3 col-11">
+                <a href="index.html" class="logo text-center">
+                  {{-- <img src="images/logo.png" alt=""> --}}
+                  <h6 class="" style="color: #e4074e;">QuadInfo Ltd</h6>
+                </a>
+              </div>
+              <div class="col-xl-8 col-lg-6 col-1 text-sm-center">
+                <!-- main nav start -->
+                <nav class="top-nav">
+                  <ul class="nav sf-menu">
+
+
+                    <li>
+                      <a href="{{ route('index') }}">Home</a>
+                      <!-- <ul>
+                        <li>
+                          <a href="index-2.html">Home 1</a>
+                        </li>
+                        <li>
+                          <a href="index-3.html">Home 2</a>
+                        </li>
+                        <li>
+                          <a href="index_static.html">Static Intro</a>
+                        </li>
+                        <li>
+                          <a href="index_singlepage.html">Single Page</a>
+                        </li>
+                      </ul> -->
+                    </li>
+
+                    <li>
+                      <a href="#about">About</a>
+                    </li>
+
+                    <li>
+                      <a href="#services">Services</a>
+                    </li>
+
+                    <li>
+                      <a href="#steps">Steps</a>
+                    </li>
+
+                    <!-- <li>
+                      <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                      <a href="#team">Team</a>
+                    </li> -->
+                    <li>
+                      <a href="#testimonials">Testimonials</a>
+                    </li>
+
+                    <!-- contacts -->
+                    <li>
+                      <a href="#contact">Contact Us</a>
+                    </li>
+                     <li>
+                      <a href="#contact">Career</a>
+                    </li>
+                    <!-- eof contacts -->
+
+                  </ul>
+                </nav>
+                <!-- eof main nav -->
+              </div>
+              <div class="col-xl-2 col-lg-3 text-lg-left text-xl-right d-none d-lg-block">
+                <div class="header_phone">
+                  <h6>
+                    <span>01552</span>-280-984
+                  </h6>
+                </div>
+              </div>
+              {{-- <div class="search-box">
+                <input type="text" name="search" placeholder="search keyword" class="search-text">
+                <a href="#" class="search-btn">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> --}}
+            </div>
           </div>
-        </form>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-	        	<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Career</a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
+          <!-- header toggler -->
+          <span class="toggle_menu">
+            <span></span>
+          </span>
+        </header>
+      </div>
+      <span class="toggle_menu_side header-slide">
+        <span></span>
+      </span>
