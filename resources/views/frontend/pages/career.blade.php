@@ -52,7 +52,9 @@
     <div class="divider-60 d-none d-xl-block"></div>
     <div class="row">
       <div class="col-lg-12 ">
-        <form class="contact-form" method="post" action="http://webdesign-finder.com/">
+        <form  method="post" action="{{ route('career_post') }}"  enctype="multipart/form-data" >
+          {{ csrf_field() }}
+          
 
           <div class="row c-gutter-20">
 
@@ -67,13 +69,13 @@
                 <label for="email">Email address
                   <span class="required">*</span>
                 </label>
-                <input type="email" aria-required="true" size="30" value="" name="email" id="email" class="form-control text-left" placeholder="Email Address" required >
+                <input type="email"  name="email" class="form-control text-left" placeholder="Email Address" required >
               </div>
               <div class="form-group has-placeholder">
                 <label for="subject">Subject
                   <span class="required">*</span>
                 </label>
-                <select class=" custom-select custom-select-lg mb-3"  required >
+                <select class=" custom-select custom-select-lg mb-3"  required name="position" >
                   <option >Select position</option>
                   <option value="LaravelDeveloper">Laravel Developer</option>
                   <option value="Frontend & System Designer">Frontend & System Designer</option>
@@ -83,7 +85,7 @@
                 <label for="email"> Upload CV
                   <span class="required">*</span>
                 </label>
-                <input type="file" aria-required="true" size="30" value="" name="file" id="file" class="form-control text-left" placeholder="Upload Your CV (pdf/docx)" required >
+                <input type="file" aria-required="true" size="30" value="" name="cvfile" id="file" class="form-control text-left" placeholder="Upload Your CV (pdf/docx)" required >
               </div>
             </div>
             <div class="col-12 col-md-6">
@@ -97,7 +99,7 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="form-group text-center">
-                <button type="submit" id="contact_form_submit" name="contact_submit" class="btn btn-maincolor">Submit </button>
+                <button type="submit" class="btn btn-maincolor">Submit </button>
               </div>
             </div>
 

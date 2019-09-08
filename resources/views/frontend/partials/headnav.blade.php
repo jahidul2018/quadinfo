@@ -59,7 +59,7 @@
                       <a href="#contact">Contact Us</a>
                     </li>
                      <li>
-                      <a href="#contact">Career</a>
+                      <a href="{{ route('career') }}">Career</a>
                     </li>
                     <!-- eof contacts -->
 

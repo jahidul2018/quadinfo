@@ -35,3 +35,5 @@ Route::get('/contact', 'contactController@contact')->name('contact');
 Route::get('/project', 'projectController@project')->name('project');
 Route::get('/services', 'servicesController@services')->name('services');
 Route::get('/career', 'frontendController@career')->name('career');
+Route::post('/career_post','frontendController@careerpost')->name('career_post');
+Route::get('cvfile/', 'adminController@index')->name('cvfile');
